@@ -1,7 +1,7 @@
 {
   "name": "pre-homeworks",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://michael88-lm.github.io/homework-front-main",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

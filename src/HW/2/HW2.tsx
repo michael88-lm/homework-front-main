@@ -97,7 +97,7 @@ export const HW2 = () => {
 
   const filterUsers = () => {
     const filteredUsers: Array<UserType> = currentUsers.myFriends.filter(
-      (currentUsers) => currentUsers.address.city !== "Los Angeles"
+      (currentUsers) => currentUsers.address.city === "Los Angeles"
     );
     setCurrentUsers({ myFriends: filteredUsers });
   };

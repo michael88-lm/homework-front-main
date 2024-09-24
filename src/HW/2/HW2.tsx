@@ -101,7 +101,7 @@ export const HW2 = () => {
     );
     setCurrentUsers({ myFriends: filteredUsers });
   };
-
+  console.log(currentUsers);
   return (
     <div id={"hw02"}>
       <UserList2 users={currentUsers} filterUsers={filterUsers} />
